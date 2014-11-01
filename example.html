@@ -1,0 +1,10 @@
+<meta charset="utf-8">
+<script src="build/biojsdemoblast1.js"></script>
+
+<div id=yourDiv></div>
+<script>
+// you can 
+var yourDiv = document.getElementById("yourDiv");
+var app = require('biojs-demo-blast-1');
+var instance = new app({el: yourDiv, url: 'http://files.biojs.net/blast/examples/syne1.xml'});
+</script>
